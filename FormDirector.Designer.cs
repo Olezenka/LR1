@@ -55,6 +55,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Назад";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -82,7 +83,7 @@
             this.labelRole.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelRole.Location = new System.Drawing.Point(44, 456);
             this.labelRole.Name = "labelRole";
-            this.labelRole.Size = new System.Drawing.Size(328, 112);
+            this.labelRole.Size = new System.Drawing.Size(164, 56);
             this.labelRole.TabIndex = 4;
             this.labelRole.Text = "labelRole";
             // 
