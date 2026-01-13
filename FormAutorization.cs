@@ -45,7 +45,7 @@ namespace LR1
                         FormSeller formSeller = new FormSeller();
                         formSeller.ShowDialog();
                         break;
-                    case 3;
+                    case 3:
                         FormDirector formDirector = new FormDirector();
                         formDirector.ShowDialog();
                         break;
