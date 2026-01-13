@@ -99,6 +99,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormManager";
             this.Text = "FormManager";
+            this.Load += new System.EventHandler(this.FormManager_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

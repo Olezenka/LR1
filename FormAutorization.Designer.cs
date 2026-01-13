@@ -88,6 +88,7 @@
             this.buttonEnter.TabIndex = 5;
             this.buttonEnter.Text = "Войти";
             this.buttonEnter.UseVisualStyleBackColor = true;
+            this.buttonEnter.Click += new System.EventHandler(this.buttonEnter_Click);
             // 
             // FormAutorization
             // 

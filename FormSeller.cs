@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LR1.FolderModel;
 
 namespace LR1
 {
@@ -38,6 +39,11 @@ namespace LR1
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormSeller_Load(object sender, EventArgs e)
         {
 
         }

@@ -103,6 +103,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormSeller";
             this.Text = "FormSeller";
+            this.Load += new System.EventHandler(this.FormSeller_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

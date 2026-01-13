@@ -98,6 +98,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormDirector";
             this.Text = "FormDirector";
+            this.Load += new System.EventHandler(this.FormDirector_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
